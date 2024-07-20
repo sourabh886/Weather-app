@@ -1,0 +1,121 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.wrapper {
+    text-align: center;
+    background: linear-gradient(to bottom, #0052D4, #4364F7, #6FB1FC);
+    border-radius: 10px;
+    padding: 20px;
+    width: 400px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.tab-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.tab {
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #0044cc;
+    border-radius: 5px;
+    margin: 0 5px;
+}
+
+.current-tab {
+    background-color: #002288;
+}
+
+.weather-container {
+    text-align: center;
+}
+
+.grant-location-container,
+.loading-container,
+.user-info-container {
+    display: none;
+}
+
+.grant-location-container.active,
+.loading-container.active,
+.user-info-container.active {
+    display: block;
+}
+
+.btn {
+    background-color: #0044cc;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.btn img {
+    vertical-align: middle;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.form-container input {
+    padding: 10px;
+    border-radius: 5px 0 0 5px;
+    border: none;
+}
+
+.form-container button {
+    padding: 10px;
+    border-radius: 0 5px 5px 0;
+    border: none;
+    background-color: #0044cc;
+    cursor: pointer;
+}
+
+.name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.name p {
+    margin: 0 10px;
+}
+
+.parameter-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.parameter {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 10px;
+    width: 80px;
+    text-align: center;
+}
+
+.parameter img {
+    width: 30px;
+    height: 30px;
+}
